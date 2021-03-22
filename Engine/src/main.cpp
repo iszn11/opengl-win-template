@@ -55,6 +55,7 @@ int __stdcall wWinMain(void* hInstance, void* hPrevInstance, wchar_t* pCmdLine, 
 
 	deinit();
 
+	glfwTerminate();
 	return 0;
 }
 
