@@ -57,8 +57,6 @@ static float time;
 
 void init()
 {
-	gladLoadGL();
-
 	// settings
 
 	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
